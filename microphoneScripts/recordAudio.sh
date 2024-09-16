@@ -9,4 +9,4 @@ else
     session=$1
 fi
 
-cssh piCluster -a "python mic/recordAudio.py --session $session"
+cssh piCluster -a "python -u mic/recordAudio.py --session $session"
