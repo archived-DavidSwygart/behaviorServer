@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cssh piCluster -a "python cam/recordVideo.py --noSave"
+cssh piCluster -a "python -u cam/recordVideo.py --noSave"
