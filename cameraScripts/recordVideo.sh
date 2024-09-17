@@ -9,4 +9,5 @@ else
     session=$1
 fi
 
+echo "running recordVideo.py on piCluster"
 cssh piCluster -a "python -u cam/recordVideo.py --session $session"
