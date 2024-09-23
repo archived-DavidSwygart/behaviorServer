@@ -1,0 +1,6 @@
+#!/bin/bash
+
+now=$(date)
+echo "setting time on all Pis to $now"
+
+cssh piCluster -a "sh setTime.sh $now"
